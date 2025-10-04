@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Tools - ToolsHub</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 20px; background: #f5f7fa; }
+        .container { max-width: 1200px; margin: 0 auto; }
+        header { background: linear-gradient(135deg, #4361ee, #7209b7); color: white; padding: 1rem; margin-bottom: 2rem; }
+        .header-content { display: flex; justify-content: space-between; align-items: center; }
+        .logo { font-size: 1.5rem; font-weight: bold; text-decoration: none; color: white; }
+        .back-btn { color: white; text-decoration: none; }
+        .page-header { text-align: center; padding: 2rem 0; }
+        .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+        .tool-card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); text-align: center; }
+        .btn { background: #4361ee; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; display: inline-block; margin-top: 1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="index.html" class="logo">🛠️ ToolsHub</a>
+            <a href="index.html" class="back-btn">← Back to Home</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="page-header">
+            <h1>Image Tools</h1>
+            <p>Edit, convert, and optimize your images</p>
+        </div>
+
+        <div class="tools-grid">
+            <div class="tool-card">
+                <h3>Image Converter</h3>
+                <p>Convert between image formats</p>
+                <a href="tools/image-converter.html" class="btn">Use Tool</a>
+            </div>
+            <div class="tool-card">
+                <h3>Compress Image</h3>
+                <p>Reduce image file size</p>
+                <a href="tools/compress-image.html" class="btn">Use Tool</a>
+            </div>
+            <div class="tool-card">
+                <h3>Image Resizer</h3>
+                <p>Resize images to any dimensions</p>
+                <a href="tools/image-resizer.html" class="btn">Use Tool</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
